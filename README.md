@@ -1,8 +1,3 @@
-Here’s your **clean, professional, no-fluff README.md** — structured like a serious engineering repo, not marketing copy.
-
----
-
-```markdown
 # Excel Academy Platform
 
 A conversion-focused web platform for an educational institution, designed to streamline admissions, capture leads, and provide automated student assistance.
@@ -19,13 +14,13 @@ The system is built to handle high user engagement while maintaining fast load t
 
 ## Technology Stack
 
-- **Framework:** Next.js 15
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Animation:** Framer Motion
-- **AI Integration:** Google Gemini API (REST)
-- **Form Handling:** Formspree
-- **Deployment:** Vercel
+- Framework: Next.js 15  
+- Language: TypeScript  
+- Styling: Tailwind CSS  
+- Animation: Framer Motion  
+- AI Integration: Google Gemini API (REST)  
+- Form Handling: Formspree  
+- Deployment: Vercel  
 
 ---
 
@@ -65,24 +60,20 @@ The system is built to handle high user engagement while maintaining fast load t
 
 ## Project Structure
 
-```
-
-├── app/
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout and fonts
-│   └── page.tsx           # Main entry point
-│
-├── components/
-│   └── ui/                # Reusable UI components
-│
-├── public/                # Static assets
-│
-├── lib/
-│   └── utils.ts           # Utility functions
-│
-└── README.md
-
-````
+    ├── app/
+    │   ├── globals.css        # Global styles
+    │   ├── layout.tsx         # Root layout and fonts
+    │   └── page.tsx           # Main entry point
+    │
+    ├── components/
+    │   └── ui/                # Reusable UI components
+    │
+    ├── public/                # Static assets
+    │
+    ├── lib/
+    │   └── utils.ts           # Utility functions
+    │
+    └── README.md
 
 ---
 
@@ -90,47 +81,35 @@ The system is built to handle high user engagement while maintaining fast load t
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
-- npm / yarn / pnpm
+- Node.js (v18 or higher)  
+- npm / yarn / pnpm  
 
 ### Setup
 
 Clone the repository:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/excel-academy-platform.git
-cd excel-academy-platform
-````
+    git clone https://github.com/YOUR_USERNAME/excel-academy-platform.git
+    cd excel-academy-platform
 
 Install dependencies:
 
-```bash
-npm install
-```
+    npm install
 
 Create environment file:
 
-```bash
-touch .env.local
-```
+    touch .env.local
 
 Add the following:
 
-```env
-NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here
-```
+    NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here
 
 Run the development server:
 
-```bash
-npm run dev
-```
+    npm run dev
 
 Open in browser:
 
-```
-http://localhost:3000
-```
+    http://localhost:3000
 
 ---
 
@@ -140,32 +119,20 @@ The project is configured for deployment on Vercel.
 
 Steps:
 
-1. Push repository to GitHub
-2. Import project into Vercel
-3. Add environment variables
-4. Deploy
+1. Push repository to GitHub  
+2. Import project into Vercel  
+3. Add environment variables  
+4. Deploy  
 
 ---
 
 ## Notes
 
-* API keys exposed via `NEXT_PUBLIC_*` are accessible on the client side.
-* For production systems, sensitive keys should be handled through a backend service.
+- API keys exposed via NEXT_PUBLIC_* are accessible on the client side.  
+- For production systems, sensitive keys should be handled through a backend service.  
 
 ---
 
 ## License
 
 MIT License
-
-```
-
----
-
-If you want, I can also:
-- make this look like a **top-tier open-source repo (Stripe/Vercel level)**
-- add **architecture diagrams + request flow**
-- or tailor it for **recruiters / clients instead of GitHub**
-
-Just tell me the direction.
-```
