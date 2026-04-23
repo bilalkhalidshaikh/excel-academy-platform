@@ -25,8 +25,8 @@ import { cn } from '@/lib/utils';
 import { GoogleGenAI } from "@google/genai";
 
 // Initialize Gemini API
-const genAI = process.env.GEMINI_API_KEY 
-  ? new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY }) 
+const genAI = process.env.NEXT_PUBLIC_GEMINI_API_KEY 
+  ? new GoogleGenAI({ apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY }) 
   : null;
 
 // const GlassCard = ({ children, className }: { children: React.ReactNode, className?: string }) => (
