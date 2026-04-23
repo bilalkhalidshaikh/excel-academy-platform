@@ -29,11 +29,6 @@ const genAI = process.env.NEXT_PUBLIC_GEMINI_API_KEY
   ? new GoogleGenAI({ apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY }) 
   : null;
 
-// const GlassCard = ({ children, className }: { children: React.ReactNode, className?: string }) => (
-//   <div className={cn("backdrop-blur-xl bg-white/60 border border-white/40 rounded-[2.5rem] p-8 shadow-xl", className)}>
-//     {children}
-//   </div>
-// );
 const GlassCard = ({ children, className }: { children: React.ReactNode, className?: string }) => (
   <div className={cn("backdrop-blur-xl bg-slate-800/40 border border-slate-700 rounded-[2.5rem] p-8 shadow-xl", className)}>
     {children}
